@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
@@ -14,30 +15,32 @@
             <div class="col-md-12">
                 <h1>Preencha o formulário abaixo com seus dados:</h1>
             </div>
-        </div>
+        </div><br>
         <div class="row">
-            <div class="col-md-4"></div>
+            <div class="col-md-4">...</div>
             <div class="col-md-4">
                 <form action="" method="POST" name="form">
-                    Nome:<input type="text" name="nome"><br>
-                    Email:<input type="email" name="email"><br>
-                    Senha:<input type="password" name="senha"><br>
-                    Repetir senha:<input type="password" name="rep_senha"><br>
-                    Módulo:
-                    <select>
-                        <option>Primeiro</option>
-                        <option>Segundo</option>
-                        <option>Terceiro</option>
-                    </select><br>
-                    Preferências:
-                    Redes<input type="checkbox">
-                    Programação<input type="checkbox">
-                    Montagem e manutenção<input type="checkbox"><br>
-                    <input type="reset">
-                    <input type="submit">
+                    <fieldset>
+                        Nome:<input type="text" name="nome"><br>
+                        Email:<input type="email" name="email"><br>
+                        Senha:<input type="password" name="senha"><br>
+                        Repetir senha:<input type="password" name="rep_senha"><br>
+                        Módulo:
+                        <select>
+                            <option>Primeiro</option>
+                            <option>Segundo</option>
+                            <option>Terceiro</option>
+                        </select><br>
+                        Preferências:
+                        Redes<input type="checkbox">
+                        Programação<input type="checkbox">
+                        Montagem e manutenção<input type="checkbox"><br>
+                        <input type="reset">
+                        <input type="submit">
+                    </fieldset>
                 </form>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">...</div>
         </div>
     </div>
 </body>

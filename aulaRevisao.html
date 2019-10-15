@@ -1,0 +1,71 @@
+<meta charset="UTF-8">
+<input type="text" id="numero">
+<input type="submit" id="adivinhar" value="Compare com o meu segredo!">
+
+<script>
+    var caixaDoNumero = document.getElementById("numero");
+    var botaoAdivinhar = document.getElementById("adivinhar");
+    var botaoClicado = function(){
+        alert(caixaDoNumero.value);
+    };
+    botaoAdivinhar.onclick = botaoClicado;
+
+    /*
+    <!--Multiplicação utilizando for-->
+    var numero = 7;
+    function mostra(frase){
+        document.write(frase + "<br>");
+    };
+    for(var multiplicador = 1; multiplicador <= 10; multiplicador++){
+        mostra(multiplicador * numero);
+    }
+
+    <!--Estrutura de repetição-->
+    var anoDeCopa = 1930;
+    while(anoDeCopa <= 2022){
+        alert(anoDeCopa + " tem copa!");
+        anoDeCopa = anoDeCopa + 4;
+    }
+
+    <!--parseInt transforma uma string em inteiro-->
+    var vitorias = prompt("Quantos jogos o CDC Futebol Clube venceu?");
+    var empates = prompt("Quantos jogos o CDC Futebol Clube empatou?");
+    var pontos = (parseInt(vitorias) * 3) + parseInt(empates);
+
+    function mostra(frase){
+        document.write(frase + "<br>");
+    };
+
+    if(pontos > 42){
+        mostra("O CDC Futebol Clube não será rebaixado!");
+    } else{
+        mostra("Lamento informar. Mas acho que o CDC Futebol Clube será rebaixado!")
+    }
+
+    var nome = prompt("Bom dia! Qual é o seu nome?");
+    document.write("Bem vindo, " + nome + ".<br>");
+
+    var idade = prompt(nome + ", quantos anos você tem?");
+    document.write(nome + " tem " + idade + " anos.");
+
+    console.log("Esta mensagem aparece apenas no console");
+
+    <!--Declaração de função e chamada dela-->
+    function mostra(frase){
+        document.write(frase + "<br>");
+    };
+    var ano = 2012;
+    mostra("Eu nasci em: " + (ano - 25));
+
+    <!--Declaração de variável e pode mexer um pouco com html-->
+    var ano = 2012;
+    document.write("<h1>Eu nasci em: " + (ano - 25) + "<br></h1>");
+
+    <!--Escreve na tela-->
+    document.write("Minha idade é: ");
+    document.write(21 + 4);
+
+    <!--Mostra um pop up-->
+    alert("Podemos fazer mais com JavaScript");
+    */
+</script>
